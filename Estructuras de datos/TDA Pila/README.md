@@ -1,4 +1,3 @@
-
 # Tipo de dato abstracto Pila
 
 Una pila (stack en inglés) es una lista ordenada o estructura de datos que permite almacenar y recuperar datos, siendo el modo de acceso a sus elementos de tipo LIFO (del inglés Last In, First Out, «último en entrar, primero en salir») .
@@ -7,13 +6,13 @@ Una pila (stack en inglés) es una lista ordenada o estructura de datos que perm
   <img width="450" src="https://github.com/P-Jonathan/sources/blob/master/img/stack.gif">
 </p>
 
-Visita [es.wikipedia.org/wiki/Pila_(informática)](https://es.wikipedia.org/wiki/Pila_(inform%C3%A1tica)) para obtener informacion.
+Visita [es.wikipedia.org/wiki/Pila_(informática)](https://es.wikipedia.org/wiki/Pila_(inform%C3%A1tica)) para obtener información.
 
 # Pre-requisitos
 
 Para poder compilar y correr correctamente el tda se necesita:
 
-- Sistema operativo linux (preferentemente ubuntu, para el cual se daran las intrucciones).
+- Sistema operativo linux (preferentemente ubuntu, para el cual se darán las instrucciones).
 - [GNU Compiler](https://gcc.gnu.org/install/index.html)
 
 Archivos:
