@@ -3,7 +3,7 @@
 
 Una pila (stack en inglés) es una lista ordenada o estructura de datos que permite almacenar y recuperar datos, siendo el modo de acceso a sus elementos de tipo LIFO (del inglés Last In, First Out, «último en entrar, primero en salir») .
 
-![stack-imagen](img/stack.gif)
+![stack-imagen](https://github.com/P-Jonathan/sources/blob/master/img/stack.gif)
 
 [Más informacion](https://es.wikipedia.org/wiki/Pila_(inform%C3%A1tica))
 
