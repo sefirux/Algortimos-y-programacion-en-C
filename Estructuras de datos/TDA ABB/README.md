@@ -92,22 +92,22 @@ $: make build_header
 
 Para compilar la biblioteca de pruebas:
 ```
-$: build_header
+$: make build_header
 ```
 
 Para compilar el test 1:
 ```
-$: build_test_1
+$: make build_test_1
 ```
 
 Para compilar el test 2:
 ```
-$: build_test_2
+$: make build_test_2
 ```
 
 Para compilar el test 3:
 ```
-$: build_test_3
+$: make build_test_3
 ```
 
 Para compilar las bibliotecas y las pruebas:
@@ -117,17 +117,17 @@ $: make build
 
 Para ejecutar el test 1:
 ```
-$: run_test_1
+$: make run_test_1
 ```
 
 Para ejecutar el test 2:
 ```
-$: run_test_2
+$: make run_test_2
 ```
 
 Para ejecutar el test 3:
 ```
-$: run_test_3
+$: make run_test_3
 ```
 
 Para ejecutar todas las pruebas del TDA:
