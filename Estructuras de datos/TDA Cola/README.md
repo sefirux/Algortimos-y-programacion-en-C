@@ -6,7 +6,7 @@ Una cola (también llamada fila) es una estructura de datos, caracterizada por s
   <img width="450" src="https://github.com/P-Jonathan/sources/blob/master/img/cola.svg">
 </p>
 
-Visita [es.wikipedia.org/wiki/Cola_(informática)](https://es.wikipedia.org/wiki/Cola_(inform%C3%A1tica)) para obtener información.
+Visita [es.wikipedia.org/wiki/Cola_(informática)](https://es.wikipedia.org/wiki/Cola_(inform%C3%A1tica)) para obtener más información.
 
 # Pre-requisitos
 
