@@ -11,6 +11,8 @@ Visita [es.wikipedia.org/wiki/Pila_(informática)](https://es.wikipedia.org/wiki
 
 # Pre-requisitos
 
+Para poder compilar y correr correctamente el tda se necesita:
+
 - [GNU Compiler](https://gcc.gnu.org/install/binaries.html)
 
 Archivos:
