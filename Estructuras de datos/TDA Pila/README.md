@@ -23,19 +23,23 @@ La biblioteca pila_vd.h es un TDA, cuya implementación corresponde a la de una 
 # Compilación
 
 ### Biblioteca 
+
 Para poder compilar correctamente la biblioteca se utilizara la siguiente linea:
 
 ```
 $: gcc -std=c99 -Wall -Wconversion -Wtype-limits -pedantic -Werror -O0 -c pila_vd.h pila_vd.c
 ```
+
 ### Pruebas
+
 Para compilar las pruebas del TDA su puede hacer uso de la siguiente linea (compilada previamente la biblioteca):
 
 ```
-$: gcc pruebas -std=c99 -Wall -Wconversion -Wtype-limits -pedantic -Werror -O0 -o pila_vd.o pruebas.c
+$: gcc -std=c99 -Wall -Wconversion -Wtype-limits -pedantic -Werror -O0 pila_vd.o pruebas.c -o pruebas
 ```
 
 # Ejecución de pruebas:
+
 Para ejecutar las pruebas del TDA se puede hacer uso de la siguiente linea:
 
 ```
