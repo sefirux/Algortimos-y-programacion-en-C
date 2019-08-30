@@ -10,7 +10,7 @@ Visita [es.wikipedia.org/wiki/Pila_(informática)](https://es.wikipedia.org/wiki
 
 # Pre-requisitos
 
-Para poder compilar y correr correctamente el tda se necesita:
+Para poder compilar y correr correctamente el TDA se necesita:
 
 - Sistema operativo linux (preferentemente ubuntu, para el cual se darán las instrucciones).
 - [GNU Compiler](https://gcc.gnu.org/install/index.html)
