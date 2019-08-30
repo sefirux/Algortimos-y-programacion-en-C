@@ -18,7 +18,7 @@ Para poder compilar y correr correctamente el TDA se necesita:
 
 # Archivos
 
-La biblioteca hash.h es un TDA, cuya implementación corresponde a la de una tabla hash o de dispercion utilizando listas simplemente enlazadas. Esta puede ser utilizada compilando los archivos **hash.h** y **hash.c**.
+La biblioteca hash.h es un TDA, cuya implementación corresponde a la de una tabla hash o de dispersión utilizando listas simplemente enlazadas. Esta puede ser utilizada compilando los archivos **hash.h** y **hash.c**.
 También se dejan archivos para poder realizar las pruebas y verificar su correcto funcionamiento.
 
 # Compilación
@@ -49,7 +49,7 @@ $: gcc -Wall -Werror -Wconversion -Wtype-limits -pedantic -std=c99 -O0 lista_se.
 
 # Ejecución:
 
-Para la ejecucion de las pruebas de la tabla de hash puede utilizasrse la siguiente linea:
+Para la ejecución de las pruebas de la tabla de hash puede utilizarse la siguiente linea:
 
 ```
 $: valgrind --leak-check=full --track-origins=yes --show-reachable=yes ./pruebas
