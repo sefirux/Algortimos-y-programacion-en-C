@@ -1,6 +1,12 @@
 
 # Tipo de dato abstracto Pila
 
+Una pila (stack en inglés) es una lista ordenada o estructura de datos que permite almacenar y recuperar datos, siendo el modo de acceso a sus elementos de tipo LIFO (del inglés Last In, First Out, «último en entrar, primero en salir») .
+
+![stack-imagen](img/stack.gif)
+
+[Más informacion](https://es.wikipedia.org/wiki/Pila_(inform%C3%A1tica))
+
 Archivos:
 
 La biblioteca pila_vd.h es un TDA, cuya implementación corresponde a la de una pila como vector dinámico. Esta puede ser utilizada compilando los archivos pila_vd.h y pila_vd.c contenidos en .zip entregado.
