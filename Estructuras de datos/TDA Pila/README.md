@@ -35,14 +35,14 @@ Para compilar las pruebas del TDA su puede hacer uso de la siguiente linea (comp
 $: gcc pruebas -std=c99 -Wall -Wconversion -Wtype-limits -pedantic -Werror -O0 -o pila_vd.o pruebas.c
 ```
 
-### Ejecución y pruebas:
+# Ejecución de pruebas:
 Para ejecutar las pruebas del TDA se puede hacer uso de la siguiente linea:
 
 ```
 $: valgrind --leak-check=full --track-origins=yes --show-reachable=yes ./minipruebas_pila_vd
 ```
 
-### Extras:
+# Extras:
 También esta incluido un archivo makefile para la compilación y ejecución, tanto de la biblioteca como de las pruebas.
 
 ### Comandos:
@@ -58,5 +58,6 @@ $: make build
 ```
 
 Para ejecutar las pruebas del TDA:
-
+```
 $: make run
+```
