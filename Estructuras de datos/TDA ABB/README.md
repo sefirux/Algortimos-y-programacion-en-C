@@ -95,17 +95,17 @@ Para compilar la biblioteca de pruebas:
 $: build_header
 ```
 
-Para compilar el test_1:
+Para compilar el test 1:
 ```
 $: build_test_1
 ```
 
-Para compilar el test_2:
+Para compilar el test 2:
 ```
 $: build_test_2
 ```
 
-Para compilar el test_3:
+Para compilar el test 3:
 ```
 $: build_test_3
 ```
