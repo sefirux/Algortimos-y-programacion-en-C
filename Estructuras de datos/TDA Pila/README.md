@@ -14,66 +14,49 @@ Para poder compilar y correr correctamente el tda se necesita:
 
 - Sistema operativo linux (preferentemente ubuntu, para el cual se darán las instrucciones).
 - [GNU Compiler](https://gcc.gnu.org/install/index.html)
+- [Valgrind](http://www.valgrind.org/downloads/current.html)
 
-Archivos:
+# Archivos
 
-La biblioteca pila_vd.h es un TDA, cuya implementación corresponde a la de una pila como vector dinámico. Esta puede ser utilizada compilando los archivos pila_vd.h y pila_vd.c contenidos en .zip entregado.
-Las funcionalidades de esta biblioteca se encuentran en el archivo pila_vd.h. También se dejan dos archivos para comprobar su correcto funcionamiento, estos son pruebas.c y minipruebas.c.
+La biblioteca pila_vd.h es un TDA, cuya implementación corresponde a la de una pila como vector dinámico. Esta puede ser utilizada compilando los archivos pila_vd.h y pila_vd.c.
 
-Compilación:
+# Compilación
 
-Para poder compilar correctamente la biblioteca se utilizara la siguiente linea de compilación:
+### Biblioteca 
+Para poder compilar correctamente la biblioteca se utilizara la siguiente linea:
 
-$: gcc pila_vd.h pila_vd.c -c -std=c99 -Wall -Wconversion -Wtype-limits -pedantic -Werror -O0
+```
+$: gcc -std=c99 -Wall -Wconversion -Wtype-limits -pedantic -Werror -O0 -c pila_vd.h pila_vd.c
+```
+### Pruebas
+Para compilar las pruebas del TDA su puede hacer uso de la siguiente linea (compilada previamente la biblioteca):
 
-Para compilar el archivo de pruebas suministrado por la cátedra se utilizara la siguiente linea:
+```
+$: gcc pruebas -std=c99 -Wall -Wconversion -Wtype-limits -pedantic -Werror -O0 -o pila_vd.o pruebas.c
+```
 
-$: gcc pila_vd.o minipruebas_pila_vd.c -o minipruebas_pila_vd -std=c99 -Wall -Wconversion -Wtype-limits -pedantic -Werror -O0
+### Ejecución y pruebas:
+Para ejecutar las pruebas del TDA se puede hacer uso de la siguiente linea:
 
-Para compilar el archivo de pruebas del alumno:
-
-$: gcc pila_vd.o pruebas.c -o pruebas -std=c99 -Wall -Wconversion -Wtype-limits -pedantic -Werror -O0
-
-Ejecución y pruebas:
-
-Para ejecutar las pruebas de la cátedra:
-
+```
 $: valgrind --leak-check=full --track-origins=yes --show-reachable=yes ./minipruebas_pila_vd
+```
 
-Para ejecutar las pruebas del alumno:
-
-$: valgrind --leak-check=full --track-origins=yes --show-reachable=yes ./pruebas
-
-Extras:
-
+### Extras:
 También esta incluido un archivo makefile para la compilación y ejecución, tanto de la biblioteca como de las pruebas.
 
-Comandos:
+### Comandos:
 
 Para compilar la biblioteca:
-
+```
 $: make build_header
+```
 
-Para compilar el archivo de pruebas del alumno:
+Para compilar la biblioteca y las pruebas:
+```
+$: make build
+```
 
-$: make build_test_1
+Para ejecutar las pruebas del TDA:
 
-Para compilar el archivo de pruebas de la cátedra:
-
-$: make build_test_2
-
-Para ejecutar las pruebas del alumno:
-
-$: make run_test_1
-
-Para ejecutar las pruebas de la cátedra:
-
-$: make run_test_2
-
-Para limpiar los archivo .gch y .o:
-
-$: clean
-
-Para limpiar los archivos .gch , .o y ejecutables:
-
-$: clean_full
+$: make run
