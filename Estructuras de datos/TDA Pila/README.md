@@ -13,7 +13,7 @@ Visita [es.wikipedia.org/wiki/Pila_(informática)](https://es.wikipedia.org/wiki
 
 Para poder compilar y correr correctamente el tda se necesita:
 
-- [GNU Compiler](https://gcc.gnu.org/install/binaries.html)
+- [GNU Compiler](https://gcc.gnu.org/install/index.html)
 
 Archivos:
 
