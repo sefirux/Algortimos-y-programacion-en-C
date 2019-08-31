@@ -196,6 +196,7 @@ $: make run_test_2
 Ejecución de test 3:
 ```
 $: make run_test_3
+```
 
 Ejecución de test 4:
 ```
