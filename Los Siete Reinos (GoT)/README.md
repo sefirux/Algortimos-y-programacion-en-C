@@ -1,14 +1,14 @@
 # Los siete reinos - GoT
 
-El mundo conocido esta constituido por cuatro continentes, Poniente, Essos, Sothoryos y Ulthos.
-Solo los dos primeros son conocidos ampliamente, mientras los ultimos permanecen en la incognita.
+El mundo conocido esta constituido por cuatro continentes, Poniente, Essos, Sothoryos y Ulthos.
+Solo los dos primeros son conocidos ampliamente, mientras los últimos permanecen en la incógnita.
 
 <p align="center">
   <img width="450" src="https://github.com/P-Jonathan/sources/blob/master/img/game-of-thrones-map.jpg">
 </p>
 
 ### Poniente
-El continente de Poniente reune dos regiones mayores:
+El continente de Poniente reúne dos regiones mayores:
 
 #### Los Siete Reinos
 - El Norte, con capital en Invernalia.
@@ -24,7 +24,7 @@ El continente de Poniente reune dos regiones mayores:
 #### Las tierras más allá del Muro
 
 ### Essos
-El continente de Essos reune una vasta cantidad de regiones, algunas de las cuales estan agrupadas en coaliciones de ciudades. Entre estos conglomerados estan:
+El continente de Essos reune una vasta cantidad de regiones, algunas de las cuales están agrupadas en coaliciones de ciudades. Entre estos conglomerados están:
 
 ### Las Ciudades Libres
 - Pentos.
@@ -37,7 +37,7 @@ El continente de Essos reune una vasta cantidad de regiones, algunas de las cual
 - Volantis.
 - Lorath.
 
-### La Bahia de los Esclavos
+### La Bahía de los Esclavos
 - Astapor.
 - Yunkai.
 - Meereen.
@@ -48,7 +48,7 @@ Visita la wiki de <a href="https://hieloyfuego.fandom.com/wiki/Game_of_Thrones" 
 
 # Pre-requisitos
 
-Para poder compilar y correr correctamente el TDA se necesita:
+Para poder compilar y correr correctamente el programa se necesita:
 
 - Sistema operativo linux (preferentemente ubuntu, para el cual se darán las instrucciones).
 - [GNU Compiler](https://gcc.gnu.org/install/index.html)
@@ -58,11 +58,11 @@ Para poder compilar y correr correctamente el TDA se necesita:
 
 La biblioteca siete_reinos permite cargar y manipular todas las regiones del mundo conocido. Esta puede ser utilizada compilando los archivos **siete_reinos.h** y **siete_reinos.c**.
 
-La informacion de las regiones se encuentra en un archivo de texto reino.txt donde la primer linea solo contiene
-la cantidad maxima de regiones que puede contener el reino (sera la utilizada para reservar la memoria para el vector
+La información de las regiones se encuentra en un archivo de texto reino.txt donde la primer linea solo contiene
+la cantidad máxima de regiones que puede contener el reino (sera la utilizada para reservar la memoria para el vector
 de regiones).
 
-Las demas lineas contienen el nombre de la region, el lema (si no tiene lema habra un -) y la cantidad de soldados que contiene su ejercito.
+Las demás lineas contienen el nombre de la región, el lema (si no tiene lema habrá un -) y la cantidad de soldados que contiene su ejercito.
 
 # Compilación
 
@@ -82,7 +82,7 @@ $: gcc -Wall -Werror -Wconversion -Wtype-limits -pedantic -std=c99 -O0 siete_rei
 
 # Ejecución:
 
-Para la ejecución del programa puede hacerce uso de la siguiente linea:
+Para la ejecución del programa puede hacerse uso de la siguiente linea:
 
 ```
 $: valgrind --leak-check=full --track-origins=yes --show-reachable=yes ./reinos
