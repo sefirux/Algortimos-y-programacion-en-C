@@ -74,7 +74,8 @@ Para poder compilar correctamente la biblioteca se utilizara la siguiente linea:
 $: gcc -Wall -Werror -Wconversion -Wtype-limits -pedantic -std=c99 -O0 -c siete_reinos.h siete_reinos.c
 ```
 
-Para compilar el programa puede hacerce uso de la siguiente linea:
+### Pruebas
+Para compilar las pruebas puede hacerce uso de la siguiente linea:
 
 ```
 $: gcc -Wall -Werror -Wconversion -Wtype-limits -pedantic -std=c99 -O0 siete_reinos.o got.c -o reinos
