@@ -81,10 +81,15 @@ Para compilar las pruebas puede hacerce uso de la siguiente linea:
 $: gcc -Wall -Werror -Wconversion -Wtype-limits -pedantic -std=c99 -O0 siete_reinos.o got.c -o reinos
 ```
 
-# Ejecución:
+# Ejecución
 
 Para la ejecución del programa puede hacerse uso de la siguiente linea:
 
 ```
 $: valgrind --leak-check=full --track-origins=yes --show-reachable=yes ./reinos
 ```
+
+# Acerca de
+
+Este programa fue desarrollado con el objetivo de familiarizarse con el manejo de punteros y la memoria dinámica.
+Fue presentado como trabajo practico en la facultad de ingeniería de la UBA (FIUBA) en 2019 para la cátedra de algoritmos y programación 2 Mendez - Camejo.
