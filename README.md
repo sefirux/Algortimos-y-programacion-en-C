@@ -11,6 +11,10 @@ Estructuras de datos:
 - [Tabla de hash](https://github.com/P-Jonathan/Algortimos-y-programacion-en-C/tree/master/Estructuras%20de%20datos/TDA%20Hash)
 
 
+Juego:
+
+- [La venganza de Arrya](https://github.com/P-Jonathan/Algortimos-y-programacion-en-C/tree/master/La%20venganza%20de%20Arrya)
+
 Otros:
 
 - [Los siete reinos](https://github.com/P-Jonathan/Algortimos-y-programacion-en-C/tree/master/Los%20Siete%20Reinos%20(GoT))
