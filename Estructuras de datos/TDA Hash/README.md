@@ -6,7 +6,7 @@ Una tabla hash, matriz asociativa, hashing, mapa hash, tabla de dispersión o ta
   <img width="450" src="https://github.com/P-Jonathan/sources/blob/master/img/hash-table.gif">
 </p>
 
-Visita [es.wikipedia.org/wiki/Tabla_hash](https://es.wikipedia.org/wiki/Tabla_hash) para obtener más información.
+Visita <a href="https://es.wikipedia.org/wiki/Tabla_hash" target="_blank">es.wikipedia.org/wiki/Tabla_hash</a> para obtener más información.
 
 # Pre-requisitos
 
