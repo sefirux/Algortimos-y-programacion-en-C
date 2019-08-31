@@ -2,7 +2,7 @@
 
 Implementacion de algoritmos y distintos programas en C.
 
-Estructuras de datos en C:
+Estructuras de datos:
 
 - [Pila](https://github.com/P-Jonathan/Algortimos-y-programacion-en-C/tree/master/Estructuras%20de%20datos/TDA%20Pila)
 - [Cola](https://github.com/P-Jonathan/Algortimos-y-programacion-en-C/tree/master/Estructuras%20de%20datos/TDA%20Cola)
