@@ -18,7 +18,7 @@ El continente de Poniente reúne dos regiones mayores:
 - Tierras del Oeste, con capital en Roca Casterly.
 - El Dominio, con capital en Altojardín.
 - Tierras de la Corona, con capital en Desembarco del Rey.
-- Tierras de la Tormenta, con capital en Bastion de Tormentas.
+- Tierras de la Tormenta, con capital en Bastion de Tormentas.
 - Dorne, con capital en Lanza del Sol.
 
 #### Las tierras más allá del Muro
