@@ -1,0 +1,13 @@
+12
+Arryn;Tan_alto_como_el_honor;23743
+Baratheon;Nuestra_es_la_furia;276098
+Codd;Aunque_todos_nos_desprecian;65237
+Fowler;Déjame_ascender;176583
+Greyjoy;Nosotros_no_Sembramos;65334
+Lannister;Oye_mi_rugido;1002345
+Martell;Nunca_Doblegado,_Nunca_Roto;14432
+Stark;Se_acerca_el_invierno;86503
+Stokeworth;Orgullosos_de_ser_leales;632251
+Targaryen;Fuego_y_Sangre;178894
+Tully;Familia,_Deber,_Honor;265543
+Tyrell;Crecer_Fuerte;845283
